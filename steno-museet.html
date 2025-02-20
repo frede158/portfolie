@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frederik - Koncept udvikling</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="forside.html">
+                <img src="images/daugaard-consult.svg" alt="Frederik Logo" style="width: 200px; height: auto;">
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="ommig.html">Om mig</a>
+            <a href="arbejde.html">Arbejde</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <!-- Tilføj tilbage-knap her -->
+    <div class="back-button">
+        <a href="arbejde.html">
+            <i class="fas fa-arrow-left"></i> Tilbage til arbejde
+        </a>
+    </div>
+
+    <section class="section">
+        <div class="hero-content">
+            <h1>Koncept udvikling</h1>
+            <div class="subtitle">INTERAKTIV UDSTILLING DESIGNET</div>
+            <div class="subtitle">TIL STENO-MUSEET I AARHUS</div>
+            <div class="date">NOVEMBER -2024</div>
+        </div>
+        <div class="hero-image">
+            <img src="images/steno-prototype-et.png" alt="Earth and Moon Visualization" class="responsive-image">
+        </div>
+    </section>
+
+    <div class="project-section">
+        <div class="project-image">
+            <video autoplay muted loop playsinline class="responsive-video">
+                <source src="images/animationer-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="project-content">
+            <h2 class="project-title">Mere om projekt</h2>
+            <p class="project-description">
+                Opgaven gik ud på at lave en udstilling som indeholdte noget digitalt interaktivt som kunne indsættes på vores projekt. Vores basis var at udvikle en simulator som gjorde man kunne rykke og forflytte månen for at se hvordan den ser ud i de forskellige faser.
+                På den måde kunne besøgende navigerer rundt og se hvordan månen påvirker jorden og ændrer udseende på baggrund af dens position.
+            </p>
+        </div>
+    </div>
+    <div class="project-section">
+        <div class="project-content">
+            <h2 class="project-title">Proces og Udvikling</h2>
+            <p class="project-description">
+                Projektet indledtes med at definere de aspekter, vi ønskede at fremhæve om månen i udstillingen. Herefter fokuserede vi på de funktioner, der skulle integreres, baseret på vores indsamlede data fra besøgende og unge, som udgjorde vores målgruppe for projektet. Efterfølgende gik vi i gang med skitsering og udvikling af en prototype i Figma.</p>
+                <p class="project-description">Mange af skitserne blev præsenteret for potentielle brugere, som gav feedback på de elementer, de ønskede at få integreret. Meget af denne feedback blev inddraget igen under udviklingsprocessen for at vurdere, om vi levede op til brugernes forventninger. Vores primære fokus er altid at skabe et produkt, som målgruppen både forstår og sætter pris på.
+                </p>
+        </div>
+        <div class="project-image">
+            <img src="images/skitser-jorden.png" alt="Project Process">
+        </div>
+    </div>
+    <div class="project-image">
+        <video autoplay muted loop playsinline class="responsive-video contained-video">
+            <source src="images/prototype-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <section class="technical-details">
+        <div class="container">
+            <h2 style="text-align: center;">Tekniske Detaljer</h2>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <h3>Anvendte Programmer</h3>
+                    <div class="tools-container">
+                        <div class="tool">
+                            <img src="images/figma-logo.svg" alt="Figma">
+                            <span>Figma</span>
+                            <p>Brugt til design og prototyping af brugergrænsefladen</p>
+                        </div>
+                        <div class="tool">
+                            <img src="images/caursor-logo1.svg" alt="Cursor">
+                            <span>Cursor</span>
+                            <p>Anvendt til kodeudvikling og implementering</p>
+                        </div>
+                        <div class="tool">
+                            <img src="images/photoshop.svg" alt="Photoshop">
+                            <span>Photoshop</span>
+                            <p>Billedredigering og grafiske elementer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-item challenges">
+                    <h3>Udfordringer & Løsninger</h3>
+                    <div class="challenge">
+                        <h4>Interaktivitet</h4>
+                        <p>Implementering af en intuitiv måde at manipulere månens position, løst gennem omfattende brugertests og iterative forbedringer.</p>
+                    </div>
+                    <div class="challenge">
+                        <h4>Performance</h4>
+                        <p>Optimering af animationer og grafik for at sikre en flydende brugeroplevelse på forskellige enheder.</p>
+                    </div>
+                    <div class="challenge">
+                        <h4>Brugerforståelse</h4>
+                        <p>Formidling af komplekst astronomisk indhold på en letforståelig måde gennem visuelle hjælpemidler.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="about-section">
+                <h3>Om Frederik</h3>
+                <p>Læs mere om mig og mine kompetencer.</p>
+                <a href="ommig.html" class="footer-link">Læs mere</a>
+              </div>
+              <div class="work-section">
+                <h3>Arbejde</h3>
+                <p>Se mit portfolio og tidligere projekter.</p>
+                <a href="arbejde.html" class="footer-link">Se arbejde</a>
+              </div>
+              <div class="work-section">
+                <h3>Kontakt</h3>
+                <p>Lad os snakke om et nyt projekt.</p>
+                <a href="kontakt.html" class="footer-link">Kontakt mig</a>
+              </div>
+          <div class="social-section">
+            <h3>Følg mig</h3>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          &copy; 2024 Frederik. All rights reserved.
+        </div>
+      </footer>
+</body>
+</html>  
